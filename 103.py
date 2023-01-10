@@ -1,1 +1,2 @@
-print(*range(int(input("Нижний порог ")), int(input("Верхний порог ")) + 1, int(input("Шаг "))))
+for i in range(int(input("Нижний порог ")), int(input("Верхний порог (Не включаеться в список )")), int(input("Шаг "))):
+    print(i)
