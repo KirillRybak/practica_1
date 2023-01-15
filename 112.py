@@ -8,8 +8,3 @@ try:
             print(z, end=" | ")
 except:
     print("Упс, что то пошло не так")
-
-
-
-
-
