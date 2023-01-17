@@ -1,5 +1,5 @@
-n = int(input("Введите кол-во строк: "))
-m = int(input("Введите кол-во столбцов:"))
+n = int(input("Введите кол-во строк (до 10): "))
+m = int(input("Введите кол-во столбцов (до 10):"))
 listA = []
 for i in range(n):
     listB = []
@@ -9,3 +9,11 @@ for i in range(n):
     listA.append(listB)
 for i in listA:
     print(i)
+max_,k = listA[0][0],0
+for q in range(len(listA)):
+    if listA[q][k] > max_:
+        max_ = listA[q][k]
+    k += 1
+print(max_)
+
+
