@@ -1,4 +1,4 @@
-n = int(input("Введите кол-во строк и столбцов: "))
+n = int(input("Введите кол-во строк: "))
 m = int(input("Введите кол-во столбцов: "))
 listA = []
 for i in range(n):
@@ -15,5 +15,3 @@ for q in range(len(listA)):
         max_ = listA[q][k]
     k += 1
 print(max_)
-
-
