@@ -7,15 +7,12 @@ for i in range(N):
     for j in range(N):
         n = int(random() * 100) - 50
         z.append(n)
+
         print("%4d" % n, end='')
-        if n < 0:
+        if j < i and n < 0 :
             x += 1
     print()
     a.append(z)
-
-
-
-
 print("___________")
 print("Отрицательных чисел под главной диагональю: ", x )
 
