@@ -6,4 +6,4 @@ while i<n:
     m = {"пусто"}
     if i%3==0 and m:
         m = str(i)+ " " + str({"пусто"})
-        print(m)
+        print(m, end= " | ")
