@@ -1,12 +1,12 @@
 from random import randint
 
-n = int(input("n="))
+n = int(input("Введите кол-во множеств: "))
 
 sets = [None]
 
 for i in range(1, n + 1):
     t = []
-    for _ in range(10):
+    for j in range(10):
         t.append(randint(-10, 10))
     sets.append(set(t))
 
