@@ -13,8 +13,8 @@ with open("example.txt",'r') as f:
             if j.isdigit()==True:
                 x += int(j)
                 if int(j)<3:
-                    print(list(i))
-    print(x/5)
+                    print("Ученик: ",str(i))
+    print("Средний балл по классу: ",x/5)
 
 
 
