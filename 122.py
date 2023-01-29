@@ -3,7 +3,8 @@ f.writelines(["Wesley Hubbard ","4\n"])
 f.writelines(["Brian Franklin ","1\n"])
 f.writelines(["Anthony Hensley ","2\n"])
 f.writelines(["Leslie Miles ","5\n"])
-f.writelines(["Brice Flynn ","5"])
+f.writelines(["Brice Flynn ","5\n"])
+f.writelines(["Pavel kisel","2"])
 f.close()
 with open("example.txt",'r') as f:
     x = 0
