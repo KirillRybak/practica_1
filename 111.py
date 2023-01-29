@@ -6,4 +6,4 @@ try:
             s += a[i]
     print(s)
 except:
-    print("Упс, что то пошло не так")
+    print("оп")
