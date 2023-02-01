@@ -5,5 +5,5 @@ def num(n):
         i += 1
     return i
 
-m = abs(int(input('Введите число: ')))
+m = int(input('Введите число: '))
 print('Количество разрядов:', num(m))
