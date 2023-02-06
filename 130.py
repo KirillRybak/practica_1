@@ -1,14 +1,17 @@
+name = input("Введите имя: ")
 def fan(func):
-    def winner():
+    def winner(x):
         print("Вообще без понятия, как это делать")
-        func()
+        func(x)
+        return func(x.upper())
     return winner
 @fan
-def hello():
-    name = input("Введите имя: ")
-    x = "Hello, " + name
-    x1 = x.upper()
-    return print(x,x1)
+def hello(name):
 
-fan(hello)
+    x = "Hello, " + name
+
+    return print(x)
+fan(hello(name))
+
+
 
