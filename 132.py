@@ -5,7 +5,7 @@ class animal:
     def leo(self):
         print("Привет, я " + self.animal)
     def spe(self,speed):
-        print("могу разогнаться до " + str(speed) + " км/ч")
+        print("Могу разогнаться до " + str(speed) + " км/ч")
     def Weight(self,x):
         print("Мой вес " + str(x))
 
