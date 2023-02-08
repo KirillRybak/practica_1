@@ -12,5 +12,5 @@ class animal:
 
 animal1 = animal("Леопард")
 animal1.leo()
-animal1.spe(99)
+animal1.spe(58)
 animal1.Weight(31)
