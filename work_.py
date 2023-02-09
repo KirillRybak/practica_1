@@ -7,10 +7,7 @@ class animal:
     def spe(self,speed):
         print("Могу разогнаться до " + str(speed) + " км/ч")
     def Weight(self,x):
-        print("Мой вес " + str(x))
+        print("Мой вес " + str(x) + " кг")
 
 
-animal1 = animal("Леопард")
-animal1.leo()
-animal1.spe(58)
-animal1.Weight(31)
+
