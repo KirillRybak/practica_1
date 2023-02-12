@@ -18,7 +18,13 @@ class Kat(Animal):
         print("Скорость: " + str(x))
     def Coloring(self,x):
         print('Раскраска: ' + str(x))
+    def por(self,x):
+        if x == True:
+            print('Порода есть')
+        else:
+            print('Породы нет')
 kat = Kat()
 kat.Coloring('black')
 kat.speed(48)
 kat.ver(7.5)
+kat.por(True)
