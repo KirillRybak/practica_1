@@ -8,7 +8,7 @@ curs.execute(zap1)
 vyb = curs.fetchall()
 print(vyb)
 
-zap2 = """SELECT * FROM PERS WHERE Город='Минск';"""
+zap2 = """SELECT * FROM PERS WHERE Город ='Минск';"""
 curs.execute(zap2)
 vyb2 = curs.fetchall()
 print(vyb2)
